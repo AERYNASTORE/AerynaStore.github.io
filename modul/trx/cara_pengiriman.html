@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>cara pengiriman</title>
+  </head>
+  <style>
+    p {
+      margin-top: 2rem;
+    }
+
+    select,
+    button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    select:hover,
+    button:hover {
+      background: #eaeaea;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container">
+        <h3>AESMSTORE</h3>
+
+        <div class="menu" id="menu">
+          <a href="../../index.html">Home</a>
+          <a href="../produk/produk_saya.html">Produk Saya</a>
+          <a href="../about/tentang_toko.html">Tentang Toko</a>
+          <a href="../informasi.html">Informasi</a>
+          <a href="../about/tentang_saya.html">Tentang Saya</a>
+          <a href="#">Daftar</a>
+        </div>
+      </div>
+    </div>
+    <!-- /Navbar -->
+
+    <main class="produk">
+      <div class="container">
+        <h1>Cara Pengiriman</h1>
+        <a href="#" onclick="history.go(-1)">Kembali</a>
+        <a href="../../index.html">Home</a>
+
+        <p>Silahkan Pilih Cara Pengiriman</p>
+        <div>
+          <select>
+            <option>COD</option>
+            <option>JNT</option>
+            <option>JNE</option>
+          </select>
+
+          <button>Next</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

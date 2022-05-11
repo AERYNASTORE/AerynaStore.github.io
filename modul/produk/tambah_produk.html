@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tambah Produk</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <style type="text/css">
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <style>
+    #blok_tambah_produk {
+      padding: 1rem;
+      background: #fff;
+      width: 400px;
+      border-radius: 5px;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    label {
+      font-size: 1rem;
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select {
+      display: block;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      background: #eaeaea;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 5px;
+      background: rgb(40, 202, 207);
+      color: #eaeaea;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container">
+        <h3>AERYNASTORE</h3>
+
+        <div class="menu" id="menu">
+          <a href="../../index.html">Home</a>
+          <a href="../produk/produk_saya.html">Produk Saya</a>
+          <a href="../about/tentang_toko.html">Tentang Toko</a>
+          <a href="../informasi.html">Informasi</a>
+          <a href="../about/tentang_saya.html">Tentang Saya</a>
+          <a href="#">Daftar</a>
+        </div>
+      </div>
+    </div>
+    <!-- /Navbar -->
+
+    <main class="produk">
+      <div class="container">
+        <h1>Tambah Produk</h1>
+        <hr />
+
+        <p>
+          <a href="#" onclick="history.go(-1)">Kembali</a>
+          <a href="../../index.html">Home</a>
+        </p>
+        <div id="blok_tambah_produk">
+          <label for=""> Nama Produk </label>
+          <input type="" name="" />
+          <label for=""> Jenis Produk </label>
+          <select>
+            <option>NCT Universe PB</option>
+            <option>NCT Universe Jewel Case</option>
+            <option>SMCU Express</option>
+            <option>Lightstick</option>
+          </select>
+
+          <hr />
+          <button>Submit</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
